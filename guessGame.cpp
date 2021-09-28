@@ -32,7 +32,7 @@ int main() {
             std::cout << "You guessed correctly!" << std::endl;
         } else {
             std::cout << "You guessed incorrectly." << std::endl;
-            std::cout << "The correct answer is " << answer << "." << 
+            std::cout << "The correct answer is " << answer << "." <<
             std::endl;
         }
     } catch(std::invalid_argument) {
